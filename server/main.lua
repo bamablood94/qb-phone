@@ -7,7 +7,8 @@ local Hashtags = {}
 local Calls = {}
 local Adverts = {}
 local GeneratedPlates = {}
-local WebHook = ""
+--local WebHook = "https://discord.com/api/webhooks/943601036738838628/JmgoVUtqtf6IEN9W9y8StRpeifHomh45qLQF2iIc9ZVCpRZruTG2wK13RoLkSCXuyEcA"
+local WebHook = "https://discord.com/api/webhooks/946071560895234088/XgxdZ6IPytB0gguCRN6GT4g9ws15a0VIsyjMvcJ-Zzfzu64cBRydm3Uj5MeT8QZJzE0X"
 local bannedCharacters = {'%','$',';'}
 
 -- Functions
@@ -88,38 +89,6 @@ end
 local function GenerateOwnerName()
     local names = {
         [1] = { name = "Bailey Sykes",          citizenid = "DSH091G93" },
-        [2] = { name = "Aroush Goodwin",        citizenid = "AVH09M193" },
-        [3] = { name = "Tom Warren",            citizenid = "DVH091T93" },
-        [4] = { name = "Abdallah Friedman",     citizenid = "GZP091G93" },
-        [5] = { name = "Lavinia Powell",        citizenid = "DRH09Z193" },
-        [6] = { name = "Andrew Delarosa",       citizenid = "KGV091J93" },
-        [7] = { name = "Skye Cardenas",         citizenid = "ODF09S193" },
-        [8] = { name = "Amelia-Mae Walter",     citizenid = "KSD0919H3" },
-        [9] = { name = "Elisha Cote",           citizenid = "NDX091D93" },
-        [10] = { name = "Janice Rhodes",        citizenid = "ZAL0919X3" },
-        [11] = { name = "Justin Harris",        citizenid = "ZAK09D193" },
-        [12] = { name = "Montel Graves",        citizenid = "POL09F193" },
-        [13] = { name = "Benjamin Zavala",      citizenid = "TEW0J9193" },
-        [14] = { name = "Mia Willis",           citizenid = "YOO09H193" },
-        [15] = { name = "Jacques Schmitt",      citizenid = "QBC091H93" },
-        [16] = { name = "Mert Simmonds",        citizenid = "YDN091H93" },
-        [17] = { name = "Rickie Browne",        citizenid = "PJD09D193" },
-        [18] = { name = "Deacon Stanley",       citizenid = "RND091D93" },
-        [19] = { name = "Daisy Fraser",         citizenid = "QWE091A93" },
-        [20] = { name = "Kitty Walters",        citizenid = "KJH0919M3" },
-        [21] = { name = "Jareth Fernandez",     citizenid = "ZXC09D193" },
-        [22] = { name = "Meredith Calhoun",     citizenid = "XYZ0919C3" },
-        [23] = { name = "Teagan Mckay",         citizenid = "ZYX0919F3" },
-        [24] = { name = "Kurt Bain",            citizenid = "IOP091O93" },
-        [25] = { name = "Burt Kain",            citizenid = "PIO091R93" },
-        [26] = { name = "Joanna Huff",          citizenid = "LEK091X93" },
-        [27] = { name = "Carrie-Ann Pineda",    citizenid = "ALG091Y93" },
-        [28] = { name = "Gracie-Mai Mcghee",    citizenid = "YUR09E193" },
-        [29] = { name = "Robyn Boone",          citizenid = "SOM091W93" },
-        [30] = { name = "Aliya William",        citizenid = "KAS009193" },
-        [31] = { name = "Rohit West",           citizenid = "SOK091093" },
-        [32] = { name = "Skylar Archer",        citizenid = "LOK091093" },
-        [33] = { name = "Jake Kumar",           citizenid = "AKA420609" },
     }
     return names[math.random(1, #names)]
 end
